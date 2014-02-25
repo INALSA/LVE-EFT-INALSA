@@ -1,0 +1,15 @@
+CREATE VIEW LVE_RV_Conciliation AS
+SELECT 
+	cl.ad_client_id, 
+	cl.ad_org_id, 
+	cl.isreconciled, 
+	cl.tendertype,
+	SUM(cl.trxamt) AS trxamt, 
+	SUM(cl.stmtamt) AS stmtamt 
+FROM T_Conciliationline cl
+GROUP BY 
+	cl.isreconciled, 
+	cl.tendertype, 
+	cl.ad_pinstance_id, 
+	cl.ad_client_id, 
+	cl.ad_org_id;

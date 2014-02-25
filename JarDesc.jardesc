@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="LVE-EFT-INALSA/packages/LVE-EFT-INALSA/lib/LVE-EFT-INALSA.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/LVE-EFT-INALSA/JarDesc.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=LVE-EFT-INALSA/patches"/>
+        <file path="/LVE-EFT-INALSA/LVE-EFT-INALSA.launch"/>
+        <javaElement handleIdentifier="=LVE-EFT-INALSA/base"/>
+        <file path="/LVE-EFT-INALSA/codetemplates.xml"/>
+        <file path="/LVE-EFT-INALSA/.project"/>
+        <file path="/LVE-EFT-INALSA/.classpath"/>
+        <file path="/LVE-EFT-INALSA/.teeproject"/>
+        <file path="/LVE-EFT-INALSA/JarDesc.jardesc"/>
+        <file path="/LVE-EFT-INALSA/GenerateModelLVE-EFT-INALSA.launch"/>
+    </selectedElements>
+</jardesc>
